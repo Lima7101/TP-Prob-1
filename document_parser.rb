@@ -12,9 +12,9 @@ d.do(:chunk, :segment, :tokenize, :parse, :name_tag)
 
 
 d.children.each_with_index do |c, i|
-  c.visualize :dot, file: "./output/#{i+1}.dot"
+  # c.visualize :dot, file: "./output/#{i+1}.dot"
   c.serialize :xml, file: "./output/#{i+1}.xml"
-  `dot ./output/#{i+1}.dot -Tpng -o ./output/#{i+1}.png`
+  # `xml ./output/#{i+1}.dot -Tpng -o ./output/#{i+1}.png`
 end
 
 
