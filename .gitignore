@@ -1,2 +1,4 @@
 .DS_Store
-output/
+output/*.xml
+output/*.png
+output/*.dot
